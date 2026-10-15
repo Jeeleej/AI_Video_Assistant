@@ -19,8 +19,7 @@ deep-translator>=1.11.4 # Lightweight translation wrapper (Google backend)
 langchain>=0.2.0
 langchain-core>=0.2.0
 langchain-community>=0.2.0
-langchain-mistralai>=0.1.0 # LangChain wrapper for Mistral API
-mistralai>=0.4.0 # Official Mistral Python client
+langchain-groq>=0.1.0
 
 # ── Core Framework & Architecture ─────────────────────────────────────────────
 langchain>=0.3.0 # Main LangChain package (chains, agents, LCEL primitives)
@@ -28,7 +27,6 @@ langchain-core>=0.3.0 # Base abstractions, runnables, schemas, and message types
 langchain-community>=0.3.0 # Community-contributed third-party integrations & loaders
 
 # ── Model & Provider Integrations ─────────────────────────────────────────────
-langchain-mistralai>=0.2.0 # Mistral AI chat/completion integration for LangChain 0.3+
 langchain-huggingface>=0.1.0 # HuggingFace embeddings & local model pipeline wrapper
 
 # ── Document Processing & Vector Storage ──────────────────────────────────────
